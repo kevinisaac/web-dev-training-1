@@ -1,0 +1,23 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#products {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+
+
+    background-color: red;
+}
+
+.product {
+    /* width: 100px; */
+    /* height: 150px; */
+    background-color: yellow;
+    /* margin-top: 10px; */
+    /* margin-left: 10px; */
+}
