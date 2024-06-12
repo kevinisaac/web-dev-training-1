@@ -35,5 +35,15 @@ body {
     & .content {
         background-color: blue;
         height: calc(100vh - 80px);
+
+        & .content-top {
+            background-color: brown;
+            height: 30px;
+        }
+
+        & .content-bottom {
+            background-color: pink;
+            height: calc(100% - 30px);
+        }
     }
 }
