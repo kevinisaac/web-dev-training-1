@@ -24,6 +24,10 @@ body {
     height: 100vh;
 
     & .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
         background-color: yellow;
         height: 80px;
     }
