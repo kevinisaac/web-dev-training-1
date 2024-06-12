@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 200px calc(100vw - 200px);
+}
+
+.left-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: aqua;
+    height: 100vh;
+}
+
+.right-bar {
+    background-color: red;
+    height: 100vh;
+
+    & .header {
+        background-color: yellow;
+        height: 80px;
+    }
+
+    & .content {
+        background-color: blue;
+        height: calc(100vh - 80px);
+    }
+}
